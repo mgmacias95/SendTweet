@@ -23,7 +23,7 @@ First, you have to create an app for twitter:
 
 (This description of how to get the tokens for the keys it's from the ReadMe of: https://github.com/computermacgyver/twitter-python)
 
-Now you have to copy the ConsumerKey, the ConsumerSecret,the Access token and the Access token secret.
+Now you have to copy the ConsumerKey, the ConsumerSecret,the Access token and the Access token secret to the keys.py.
 
 Then the only thing you have to do is execute the script!
 
