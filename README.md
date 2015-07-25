@@ -25,7 +25,7 @@ First, you have to create an app for twitter:
 
 Now you have to copy the ConsumerKey, the ConsumerSecret,the Access token and the Access token secret to the keys.py.
 
-Then the only thing you have to do is execute the script!
+Then the only thing you have to do is executing the script!
 
 ```
   python sendtweet.py
