@@ -1,5 +1,4 @@
-
-![](file:///run/media/pacocp/Nuevo%20vol/Personal%20Projects/sendtweet.jpg)
+#SendTweet
 ##Explanation
 Simple Python scritp, with it you can send a tweet via Terminal. You need to have installed Tweepy: 
 
