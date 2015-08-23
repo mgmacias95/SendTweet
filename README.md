@@ -1,5 +1,5 @@
-# SendTweet
 
+![](file:///run/media/pacocp/Nuevo%20vol/Personal%20Projects/sendtweet.jpg)
 ##Explanation
 Simple Python scritp, with it you can send a tweet via Terminal. You need to have installed Tweepy: 
 
@@ -7,7 +7,7 @@ https://github.com/tweepy/tweepy
 
 And you need to have Python3.
 
-##How to use
+##How to use it 
 
 First, you have to create an app for twitter:
 
@@ -25,7 +25,7 @@ First, you have to create an app for twitter:
 
 Now you have to copy the ConsumerKey, the ConsumerSecret,the Access token and the Access token secret to the keys.py.
 
-Then the only thing you have to do is executing the script!
+Then, the only thing you have to do is executing the script!
 
 ```
   python sendtweet.py
