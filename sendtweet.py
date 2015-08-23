@@ -16,10 +16,7 @@ def tweet(t,auth):
     api = tweepy.API(auth)
     result = api.update_status(status=t)
     return result
-'''def get_specific_user(auth,name):
-    api = tweepy.API(auth)
-    user = api.get_user(name)
-    return user'''
+
 def get_timeline(auth):
     api = tweepy.API(auth)
     tweets = api.home_timeline()
@@ -39,7 +36,6 @@ def main():
         termcolor.cprint("1. Send a tweet ","green")
         termcolor.cprint("2. Get your timeline ","green")
         termcolor.cprint("3. Get your favorites","green")
-        #termcolor.cprint("4. See the information about an specific user",'green')
         termcolor.cprint("--Type -1 for exit--","green")
 
         termcolor.cprint("Type a number","cyan")
@@ -60,6 +56,7 @@ def main():
             t = input()
             tweet(t,auth)
             termcolor.cprint("Your status has been updated!",'cyan')
+            print("\n")
         if(answ == '3'):
             termcolor.cprint("Type the number of pages you want: ",'cyan')
             pages = input()
@@ -68,10 +65,7 @@ def main():
                 termcolor.cprint("%s: "%i.user.screen_name,"cyan")
                 termcolor.cprint("%s"%i.text,"yellow")
                 print("\n")
-        '''if(answ == '4'):
-            user = get_specific_user(auth,name)
-            print(user.screen_name)
-        '''
+
         if(answ == '-1'):
             termcolor.cprint("THANK YOU! HAVE A NICE DAY!",'cyan')
 
