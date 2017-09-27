@@ -1,12 +1,14 @@
-#SendTweet
-##Explanation
+# SendTweet
+
+## Explanation
+
 Simple Python scritp, with it you can send a tweet via Terminal. You need to have installed Tweepy: 
 
 https://github.com/tweepy/tweepy
 
 And you need to have Python3.
 
-##How to use it 
+## How to use it 
 
 First, you have to create an app for twitter:
 
@@ -37,7 +39,7 @@ or:
   ./sendtweet.py
 ```
 
-##Author
+## Author
 
 Francisco Carrillo Pérez
 
